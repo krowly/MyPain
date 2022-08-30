@@ -15,9 +15,7 @@
 	.bigBox,.sideImgContainer{
 		background-color: white;
 		box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
-<<<<<<< Updated upstream
-		margin: 1.5em 0;
-		
+		margin: 1.5em 0;	
 	}
 	.myBody .box{
 		text-align:center;
@@ -40,11 +38,6 @@
 	  padding: 0.5em;
 	  margin: auto 10px auto auto;
 	}
-=======
-	}
-
-
->>>>>>> Stashed changes
 	.ccircle i{
 	text-align:center;
 	position:relative;

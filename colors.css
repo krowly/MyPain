@@ -1,15 +1,5 @@
-<<<<<<< Updated upstream
 .whiteBlock{
-	background-color: #white;
-}
-.grayBlock{
-	background-color: #dbdbdb;
-}
-.blackBlock{
-		background-color: #2e2e2e;
-=======
-.whiteBlock{
-	background-color: #white;
+	background-color: white;
 }
 .grayBlock{
 	background-color: #dbdbdb;
@@ -19,5 +9,4 @@
 }
 .fa-star.checked{
 	color: orange;
->>>>>>> Stashed changes
 }
