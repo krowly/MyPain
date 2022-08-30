@@ -19,9 +19,11 @@
 	.imgRow{
 		padding: 2em;
 	}
-	.imgRow img{
+	.imgRow .box {
+		display: inline-block;
 		width: 70%;
 		height: auto;
+		text-align: center;
 	}
 
 	.ccircle {
