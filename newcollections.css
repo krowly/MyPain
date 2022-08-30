@@ -1,0 +1,19 @@
+.bigBox{
+	display:inline-flex;
+}
+.imgContainer img{
+	margin: 1em;
+}
+.hImgContainer img{
+	margin: 0.5em;
+}
+.sideImgContainer img {
+	width:100%;
+	padding:1em;
+}
+.bigBox>img{
+	margin: 1em 1em 1em 0em;
+}
+.NCDescription {
+  padding: 1em;
+}

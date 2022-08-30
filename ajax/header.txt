@@ -1,0 +1,73 @@
+  <div class="container myHeader">
+    <div class="row">
+      <div class="col-md ccolumn">
+        <!----Контакты-->
+        <div class="mh">
+          <ul class="contacts">
+            <li><i class="fa fa-envelope-open-o"></i> E-mail</li>
+            <li><i class="fa fa-clock-o"></i> 8:30-21:00</li>
+            <li><i class="fa fa-volume-control-phone"></i> +79407705216</li>
+          </ul>
+          <ul class="userLangs">
+            <li>EN</li>
+            <li>USD</li>
+          </ul>
+          <hr>
+          <div class="headinfo">
+            <div id="logo">
+              <span class="white">IU</span><span class="purple">STORE</span>
+            </div>
+            <ul class="cnavbar">
+              <li>
+                Home
+              </li>
+              <li>
+                Shop
+              </li>
+              <li>
+                Mega Menu
+              </li>
+              <li>
+                Vendors
+              </li>
+              <li>
+                Blog
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!----Слайды с информацией-->
+        <div class="sh">
+          <div class="mySlides">
+            <img src="slide1.jpg" style="width: 100%" />
+            <div class="cdiv">
+              <div class="purple">New style</div>
+              <div class="white">Women</div>
+              <div class="purple">-20%off</div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <img src="slide2.jpg" style="width: 100%" />
+            <div class="cdiv">
+              <div class="purple">Up to</div>
+              <div class="white">40%OFF</div>
+              <div class="purple">Fanbong</div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <img src="slide3.jpg" style="width: 100%" />
+            <div class="cdiv">
+              <div class="white">Kid's</div>
+              <div class="purple">collection</div>
+              <div class="white">2018</div>
+            </div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <script type="text/javascript">
+            plusSlides(1);
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>

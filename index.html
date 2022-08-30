@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!----Сторонние библиотеки-->
+  <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <script
+  src="https://kit.fontawesome.com/46434c97a5.js"
+  crossorigin="anonymous"
+  ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--- Кастомные импорты --->
+  <link rel="stylesheet" href="general.css" />
+  <script src="custom.js">
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".myHeader").load("ajax/header.html");
+      $(".circleline").load("ajax/circleline.html");
+      $(".imgRow").load("ajax/imgRow.html");
+      $(".newCollection").load("ajax/newCollection.html");
+      $(".footer").load("ajax/footer.html");
+    });
+  </script>
+</head>
+<body>
+    <div class="myHeader"></div>
+    <div class="circleline grayBlock"></div>
+    <div class="imgRow whiteBlock"></div>
+    <div class="newCollection grayBlock"></div>
+    <div class="footer blackBlock"></div>
+</body>
+</html>

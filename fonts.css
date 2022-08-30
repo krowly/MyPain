@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');	
+
+.myHeader .mh{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 1em;
+}
+h1,h2,h3,h4,#logo,.cdiv{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.bigBox h3,.sideImgContainer h3{
+	font-size:16px;
+}
+
+.circleline h2{
+	font-size: 14px;
+	text-align: left;
+}
+.imgRow {
+	text-align: center;
+}
+.imgRow h3{
+	font-size: 18px;
+}
+.cdiv {
+ 	line-height: 0.7;
+}
+.cdiv div:first-child{
+ 	font-size: 48px;
+ z-index: 40000;
+
+}
+.cdiv div:nth-child(odd){
+ z-index: 30000;
+}
+.cdiv div {
+	font-size: 100px;
+}
+
+.headinfo ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 0 15px;
+	font-family: 'Poppins', sans-serif;
+	display:inline;
+	color:white;
+}
+#logo,h2{
+	font-size: 30px;
+	line-height: 1.1;
+	align-items: center;
+}
+
+.white, .footer .box span.white {
+color: white;
+}
+.purple{
+color: pink;
+}
+
+.footer p,.footer li,.footer span{
+		font-family: 'Open Sans', sans-serif;
+		/*! font-color: black; */
+		color: #999;
+}
+.black{
+color: black;
+font-family: 'Poppins', sans-serif;
+}
+hr{
+  color: rgba(255, 255, 255, 0.2) ;
+  height: 1px;
+  background-color: #b3b3b3;
+  border: none;
+  margin-top: 2.5em;
+}
+
+.footer hr{
+  color: rgba(255, 255, 255, 0.2) ;
+  height: 1px;
+  background-color: #464646;
+  border: none;
+  margin: 2em;
+}
