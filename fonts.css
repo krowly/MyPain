@@ -22,6 +22,10 @@ h1,h2,h3,h4, #logo span,.cdiv *{
 	text-transform: uppercase;
 	text-align: center;
 }
+#logo{
+	font-size: 30px;
+	
+}
 .bigBox h3,.sideImgContainer h3{
 	font-size:16px;
 }

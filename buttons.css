@@ -27,7 +27,7 @@
 a:hover{
   text-decoration: none;
 }
-.button {
+.button,.cdiv .button{
   border-width: 102px;
   background-color: white;
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -38,11 +38,29 @@ a:hover{
   padding: 0 25px;
   background: #fff;
   text-transform: uppercase;
+  font-size: 14px;
 }
-.button:hover{
+.button:hover,.cdiv .button:hover{
   border-width: 102px;
-    background-color: pink;
+  background-color: pink;
 
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  color: white;
+  display: inline-block;
+  height: 36px;
+  line-height: 32px;
+  padding: 0 25px;
+  background: pink;
+  text-transform: uppercase;
+}
+.cdiv .button:last-child{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: #fff;
+}
+.cdiv .button:last-child:hover{
+  border-width: 102px;
+  background-color: pink;
   border: 2px solid rgba(0, 0, 0, 0.1);
   color: white;
   display: inline-block;
@@ -63,4 +81,9 @@ a:hover{
   background-color: pink;
   padding: 0.5em;
   margin: auto 10px auto auto;
+}
+
+.cdiv .button{
+  margin:2em;
+  font-family: 'Open Sans', sans-serif;
 }
