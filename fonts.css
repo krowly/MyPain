@@ -1,15 +1,37 @@
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');	
 
+<<<<<<< Updated upstream
 .myHeader .mh{
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 1em;
 }
 h1,h2,h3,h4,#logo,.cdiv{
+=======
+/*Размеры*/
+h2{
+	font-size:14px;
+}
+.newCollection h2{
+	font-size:20px;
+}
+.bigBox h3, .sideImgContainer h3{
+		font-size: 16px;
+}
+.imgRow h3{
+	font-size: 16px;
+}
+/*Семейство*/
+body,p,li,span{
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4, #logo span,.cdiv *{
+>>>>>>> Stashed changes
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 }
+<<<<<<< Updated upstream
 .bigBox h3,.sideImgContainer h3{
 	font-size:16px;
 }
@@ -20,10 +42,60 @@ h1,h2,h3,h4,#logo,.cdiv{
 }
 .imgRow {
 	text-align: center;
+=======
+/*Цвет*/
+.footer p, .footer li,.footer span,.bigBox span{
+	color: #999;
+}
+.white,.footer span.white, .cbottom ul li,.mh{
+color: white;
+}
+.red{
+	color: red;
+	}
+.purple{
+color: pink;
+>>>>>>> Stashed changes
 }
 .imgRow h3{
 	font-size: 18px;
 }
+<<<<<<< Updated upstream
+=======
+/*Выравнивание*/
+ul{
+	padding-left: 0;
+}
+.imgRow, .newCollection h2{
+	text-align:center;
+}
+.cramped *{
+	line-height: 0.05;
+}
+/*Трансформация*/
+.imgRow h3,.circleline h2,.footer h2{
+	text-transform: uppercase;
+}
+.cnavbar{
+	padding-left: 5em;
+}
+/*Линии*/
+hr{
+	margin-top:  2.5em;
+	color: rgba(255, 255, 255, 0.2) ;
+	height: 1px;
+	background-color: #b3b3b3;
+	border: none;
+  }
+  
+  .footer hr{
+	color: rgba(255, 255, 255, 0.2) ;
+	height: 1px;
+	background-color: #bdbdbd;
+	border: none;
+  }
+/*Специфичные*/
+>>>>>>> Stashed changes
 .cdiv {
  	line-height: 0.7;
 }
@@ -38,7 +110,15 @@ h1,h2,h3,h4,#logo,.cdiv{
 .cdiv div {
 	font-size: 100px;
 }
+<<<<<<< Updated upstream
 
+=======
+#logo{
+	font-size: 30px;
+	line-height: 1.1;
+	align-items: center;
+}
+>>>>>>> Stashed changes
 .headinfo ul li {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -46,6 +126,7 @@ h1,h2,h3,h4,#logo,.cdiv{
 	font-family: 'Poppins', sans-serif;
 	display:inline;
 	color:white;
+<<<<<<< Updated upstream
 }
 #logo,h2{
 	font-size: 30px;
@@ -83,4 +164,6 @@ hr{
   background-color: #464646;
   border: none;
   margin: 2em;
+=======
+>>>>>>> Stashed changes
 }

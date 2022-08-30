@@ -23,3 +23,46 @@
 .next {
   right: 1em;
 }
+<<<<<<< Updated upstream
+=======
+a:hover{
+  text-decoration: none;
+}
+.button {
+  border-width: 102px;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+  display: inline-block;
+  height: 36px;
+  line-height: 32px;
+  padding: 0 25px;
+  background: #fff;
+  text-transform: uppercase;
+}
+.button:hover{
+  border-width: 102px;
+    background-color: pink;
+
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  color: white;
+  display: inline-block;
+  height: 36px;
+  line-height: 32px;
+  padding: 0 25px;
+  background: pink;
+  text-transform: uppercase;
+}
+
+.ccircle {
+  color: white;
+  font-size: 2em;
+  height: 2em;
+  text-align: center;
+  width: 2em;
+  border-radius: 50%;
+  background-color: pink;
+  padding: 0.5em;
+  margin: auto 10px auto auto;
+}
+>>>>>>> Stashed changes

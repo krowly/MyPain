@@ -9,11 +9,21 @@
 }
 .sideImgContainer img {
 	width:100%;
-	padding:1em;
 }
 .bigBox>img{
 	margin: 1em 1em 1em 0em;
 }
 .NCDescription {
   padding: 1em;
+}
+.discount-wrapper{
+	padding:1em;
+} 
+.discount{
+background-color: pink;
+color: white;
+position: absolute;
+right: 0;
+transform: translate(-100%,-100%);
+line-height: 2;
 }

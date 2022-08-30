@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #logo{
 	display: inline-flex;
 	padding-left:40px;
@@ -35,4 +36,42 @@
 
 .userLangs{
 	margin-right: 2em;
+=======
+#logo{
+	display: inline-flex;
+	padding-left:40px;
+}
+.cnavbar{
+	display: inline-flex;
+	margin-bottom:0;
+	align-items: center;
+}
+.cnavbar>ul{
+	display: inline;
+}
+.headinfo{
+	display: inline-flex;
+	width: 100%;
+}
+.contacts{
+  float: left;
+  display: inline-flex;
+  text-align: left;
+}
+.contacts>li {
+	list-style: none;
+	margin-right: 1em;
+}
+.mh{
+  position: absolute;
+  width:100%;
+  z-index:1000;
+  background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+  height: 8.5em;
+}
+
+
+.userLangs{
+	margin-right: 2em;
+>>>>>>> Stashed changes
 }

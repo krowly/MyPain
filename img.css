@@ -1,0 +1,35 @@
+.myBody .box img{
+  width: 70%;
+  height: auto;
+}
+
+	/* novoe */
+	.img-wrapper {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 100%;
+		cursor: pointer;
+	}
+	.img, .overlay {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+		height: 100%;
+		transition: .5s ease-in-out;
+	}
+	.overlay {
+		background: rgba(0,0,0,0.35);
+		visibility: hidden;
+		opacity: 0;
+		z-index: 1;
+	}
+	.img-wrapper:hover .img {transform: scale(1.05);}
+	.img-wrapper:hover .overlay {
+		visibility: visible;
+		opacity: 1;
+	}
+	.footer h2{
+		font-size: 14px;
+		text-align: left;
+	}
