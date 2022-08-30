@@ -19,6 +19,11 @@
 	.imgRow{
 		padding: 2em;
 	}
+	.imgRow img{
+		width: 70%;
+		height: auto;
+	}
+
 	.ccircle {
 	  color: white;
 	  font-size: 2em;
