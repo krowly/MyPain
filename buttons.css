@@ -9,7 +9,7 @@
   top: 50%;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5em;
   border-radius: 50%;
   user-select: none;
   z-index:20000;
@@ -27,7 +27,7 @@
 a:hover{
   text-decoration: none;
 }
-.button,.cdiv .button{
+.button{
   border-width: 102px;
   background-color: white;
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -38,8 +38,22 @@ a:hover{
   padding: 0 25px;
   background: #fff;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1em;
 }
+.cdiv .button{
+  border-width: 102px;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+  display: inline-block;
+  height: 36px;
+  line-height: 32px;
+  padding: 0 25px;
+  background: #fff;
+  text-transform: uppercase;
+  font-size: 0.5em;
+}
+
 .button:hover,.cdiv .button:hover{
   border-width: 102px;
   background-color: pink;

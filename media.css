@@ -1,0 +1,40 @@
+@media screen and (max-width: 991px) {
+  .circleline .col-md-4{
+    text-align: center;
+  }
+  .bigbox{
+    margin: 1em 1em;
+  }
+  .button{
+    margin-bottom: 1em;
+  }
+  .footer .container{
+    margin:0 3em;
+  }
+  .bigBox{
+    display: block;
+  }
+  .bigBox .imgContainer{
+    position:absolute;
+    scale: 0.75;
+    top: 0;
+    left: 0;
+  }
+  .bigBox .imgContainer img{
+    display: block;
+  }
+  .sideImgContainer{
+    flex-flow: row wrap;
+  }
+  .discount-wrapper{
+    width: 49%;
+    position: relative;
+    display: inline-block;
+  }
+  
+}
+
+
+
+@media (max-width: 1300px) {
+}

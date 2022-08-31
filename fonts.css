@@ -2,16 +2,16 @@
 
 /*Размеры*/
 h2{
-	font-size:14px;
+	font-size:1em;
 }
 .newCollection h2{
-	font-size:20px;
+	font-size:1.5em;
 }
-.bigBox h3, .sideImgContainer h3{
-		font-size: 16px;
+.bigBox h3, .sideImgContainer h3,.imgRow h3{
+		font-size: 1em;
 }
-.imgRow h3{
-	font-size: 16px;
+#logo span{
+	font-size: 2em;
 }
 /*Семейство*/
 body,p,li,span{
@@ -22,15 +22,12 @@ h1,h2,h3,h4, #logo span,.cdiv *{
 	text-transform: uppercase;
 	text-align: center;
 }
-#logo{
-	font-size: 30px;
-	
-}
+
 .bigBox h3,.sideImgContainer h3{
-	font-size:16px;
+	font-size:1em;
 }
 .circleline h2{
-	font-size: 14px;
+	font-size: 1em;
 	text-align: left;
 }
 .imgRow {
@@ -87,7 +84,7 @@ hr{
  	line-height: 0.7;
 }
 .cdiv div:first-child{
- 	font-size: 48px;
+ 	font-size: 2em;
  z-index: 40000;
 
 }
@@ -95,7 +92,7 @@ hr{
  z-index: 30000;
 }
 .cdiv div {
-	font-size: 100px;
+	font-size: 4em;
 }
 .headinfo ul li {
 	text-transform: uppercase;

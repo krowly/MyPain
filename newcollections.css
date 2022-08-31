@@ -17,13 +17,16 @@
   padding: 1em;
 }
 .discount-wrapper{
+	position: relative;
 	padding:1em;
 } 
 .discount{
-background-color: pink;
-color: white;
-position: absolute;
-right: 0;
-transform: translate(-100%,-100%);
-line-height: 2;
+	background-color: pink;
+	color: white;
+	position: absolute;
+	right: 0;
+	transform: translate(-25%,-25%);
+	line-height: 2;
+	bottom: 0;
+	padding: 1em;
 }
