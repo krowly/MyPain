@@ -1,7 +1,4 @@
-@media screen and (max-width: 991px) {
-  .circleline .col-md-4{
-    text-align: center;
-  }
+@media screen and (max-width: 767px) {
   .bigbox{
     margin: 1em 1em;
   }
@@ -31,10 +28,6 @@
     position: relative;
     display: inline-block;
   }
-  
-}
-
-
-
-@media (max-width: 1300px) {
+  .cdiv,.prev,.next{
+  }
 }

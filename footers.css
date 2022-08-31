@@ -28,11 +28,3 @@
   content: '|';
   margin-right: 1ch;
 }
-  .userLangs li:not(:first-child) {
-  padding-left: 1ch;
-}
-.userLangs li:not(:first-child)::before {
-  content: '|';
-  margin-right: 1ch;
-}
-  

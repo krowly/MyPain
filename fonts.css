@@ -1,17 +1,17 @@
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');	
 
 /*Размеры*/
+.circleline h2{
+	font-size: 14px;
+}
+h3{
+	font-size: 16px;;
+}
 h2{
-	font-size:1em;
+	font-size:30px;
 }
-.newCollection h2{
-	font-size:1.5em;
-}
-.bigBox h3, .sideImgContainer h3,.imgRow h3{
-		font-size: 1em;
-}
-#logo span{
-	font-size: 2em;
+.small{
+	scale:0.75;
 }
 /*Семейство*/
 body,p,li,span{
@@ -20,49 +20,38 @@ body,p,li,span{
 h1,h2,h3,h4, #logo span,.cdiv *{
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
-	text-align: center;
-}
-
-.bigBox h3,.sideImgContainer h3{
-	font-size:1em;
-}
-.circleline h2{
-	font-size: 1em;
-	text-align: left;
-}
-.imgRow {
-	text-align: center;
 }
 /*Цвет*/
 .footer p, .footer li,.footer span,.bigBox span{
 	color: #999;
 }
-.white,.footer span.white, .cbottom ul li,.mh{
+.footer span.white, .cbottom ul li,.mh{
 color: white;
 }
-.red{
-	color: red;
-	}
-.purple{
-color: pink;
-}
-
 /*Выравнивание*/
+.cnavbar{
+	padding-left: 5em;
+}
 ul{
 	padding-left: 0;
 }
 .imgRow, .newCollection h2{
 	text-align:center;
 }
+.cramped {
+margin:1em}
 .cramped *{
 	line-height: 0.05;
+}
+.circleline h2{
+	text-align: left;
+}
+.imgRow {
+	text-align: center;
 }
 /*Трансформация*/
 .imgRow h3,.circleline h2,.footer h2{
 	text-transform: uppercase;
-}
-.cnavbar{
-	padding-left: 5em;
 }
 /*Линии*/
 hr{
@@ -80,25 +69,3 @@ hr{
 	border: none;
   }
 /*Специфичные*/
-.cdiv {
- 	line-height: 0.7;
-}
-.cdiv div:first-child{
- 	font-size: 2em;
- z-index: 40000;
-
-}
-.cdiv div:nth-child(odd){
- z-index: 30000;
-}
-.cdiv div {
-	font-size: 4em;
-}
-.headinfo ul li {
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 0 15px;
-	font-family: 'Poppins', sans-serif;
-	display:inline;
-	color:white;
-}

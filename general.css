@@ -13,10 +13,6 @@
 	.container{
 		padding: 1em 0 2em 0;
 	}
-	.bigBox,.sideImgContainer{
-		background-color: white;
-		box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
-	}
 	.imgRow{
 		padding: 2em;
 	}
@@ -26,26 +22,10 @@
 		height: auto;
 		text-align: center;
 	}
-
-	.ccircle {
-	  color: white;
-	  font-size: 2em;
-	  height: 2em;
-	  text-align: center;
-	  width: 2em;
-	  border-radius: 50%;
-	  background-color: pink;
-	  padding: 0.5em;
-	  margin: auto 10px auto auto;
-	}
-	.ccircle i{
-	text-align:center;
-	position:relative;
-	transform: translate(-3%,-10%);
-	}
 	.boxwcc{
-	  float: none;
-	  display: inline-flex;
-	  margin-left: 1em;
+		float: none;
+		display: inline-flex;
+		margin-left: 1em;
 	}
-
+  
+  
