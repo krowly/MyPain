@@ -34,3 +34,26 @@
 	background-color: white;
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
 }
+
+.bigBox .prev,.bigBox .next{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+z-index: 30000;
+color: #fff;
+transition: all 0.5s ease-out 0s;
+-webkit-transition: all 0.5s ease-out 0s;
+background: rgba(0,0,0,0.1);
+}
+
+.bigBox .prev{
+	left: 0;
+	display: none;
+}
+.bigBox .next{
+	right: 0;	display: none;
+
+}
+.bigBox:hover .prev,.bigBox:hover .next{
+	display: flex;
+}

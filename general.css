@@ -28,4 +28,66 @@
 		margin-left: 1em;
 	}
   
+  /*work in progress*/
+  .ourBrands .row{
+	flex-wrap: wrap;
+  }
+  .ourBrands .box{
+	display: flex;
+  }
+  .bestSellers img{
+	width: 100%;
+  }
+  .bestSellers .box{
+	background-color: white;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  }
+  .bestSellers .myText{
+	padding: 0 1em 1em 1em;
+  }
+.fw{flex-wrap: wrap;
+  display: flex;}
+
+
+  .bestSellers ul{
+	text-align: center;
+  }
+  .bestSellers ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	margin: 0 1.5em;
+	font-size: 16px;;
+  }
+
+
   
+
+.bestSellers .row .prev,.bestSellers .row .next{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	z-index: 30000;
+	color: #fff;
+	transition: all 0.5s ease-out 0s;
+	-webkit-transition: all 0.5s ease-out 0s;
+	background: rgba(0,0,0,0.1);
+	}
+	
+	.bestSellers .row .prev{
+		left: 0;
+		display: none;
+	}
+	.bestSellers .row .next{
+		right: 0;	display: none;
+	}
+	.bestSellers .row:hover .prev,.bestSellers .row:hover .next{
+		display: flex;
+	}
+	.bestSellers .row{
+		position: relative;
+	}
+	.chImage{
+		height: 2ch;
+		width: auto;
+	}
